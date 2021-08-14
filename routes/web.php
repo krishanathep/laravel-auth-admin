@@ -22,4 +22,4 @@ Route::get('/welcome', function () {
 
 Route::get('/admin', AdminController::class);
 
-Route::get('/', HomeController::class);
+Route::get('/', HomeController::class)->name('home');
